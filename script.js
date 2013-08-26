@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	//Check si wrong pentru punctul a); am incercat sa le implementez eu validarea, dar nu mi-a iesit
 	$("#patrate").append("<img id='check' src='http://www.clipartguide.com/_small/0808-0710-2914-4641.jpg''>");
 	$("#patrate").append("<img id='wrong' src='http://www.clker.com/cliparts/u/B/V/9/F/u/red-wrong-cross-md.png'>");
 	var noPatrate;
@@ -16,8 +17,9 @@ $(document).ready(function() {
 		$("#wrong").show("slow");
 	}
 	
+	//functia ce construieste tabelul
 	var createTable = function () {
-		$("tbody").append("<tr>");
+		$("tbody").append("<tr>");	//Linia 1
 			$("tbody").append("<td> 1 </td>");
 			$("tbody").append("<td> 2 </td>");
 			$("tbody").append("<td><input id='input13' maxlength='1' size='1'></td>");
@@ -27,7 +29,7 @@ $(document).ready(function() {
 			$("tbody").append("<td><input id='input17' maxlength='2' size='1'></td>");
 			$("tbody").append("<td><input id='input18' maxlength='2' size='1'></td>");
 		$("tbody").append("</tr>");
-		$("tbody").append("<tr>");
+		$("tbody").append("<tr>");	//Linia 2
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input21' maxlength='1' size='1'></sup></td>");
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input22' maxlength='1' size='1'></sup></td>");
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input23' maxlength='2' size='1'></sup></td>");
@@ -37,7 +39,7 @@ $(document).ready(function() {
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input27' maxlength='2' size='1'></sup></td>");
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input28' maxlength='2' size='1'></sup></td>");
 		$("tbody").append("</tr>");
-		$("tbody").append("<tr>");
+		$("tbody").append("<tr>");	//Linia 3
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td class='greenCell'>2<sup><input class='roundInput' id='input33' maxlength='2' size='1'></sup></td>");
@@ -48,7 +50,7 @@ $(document).ready(function() {
 			$("tbody").append("<td></td>");
 		$("tbody").append("</tr>");
 
-		for(var i = 0; i < 2; i++) {
+		for(var i = 0; i < 2; i++) { 	//Liniile 4 & 5
 			$("tbody").append("<tr>");
 			for(var j = 0; j < 8; j++) {
 				$("tbody").append("<td></td>");
@@ -56,7 +58,7 @@ $(document).ready(function() {
 			$("tbody").append("</tr>");
 		}
 		
-		$("tbody").append("<tr>");
+		$("tbody").append("<tr>");	//Linia 6
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td class='greenCell'>2<sup><input class='roundInput' id='input63' maxlength='2' size='1'></sup></td>");
@@ -67,7 +69,7 @@ $(document).ready(function() {
 			$("tbody").append("<td></td>");
 		$("tbody").append("</tr>");
 
-		$("tbody").append("<tr>");
+		$("tbody").append("<tr>");	//Linia 7
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td></td>");
@@ -78,7 +80,7 @@ $(document).ready(function() {
 			$("tbody").append("<td></td>");
 		$("tbody").append("</tr>");
 		
-		$("tbody").append("<tr>");
+		$("tbody").append("<tr>");		//Linia 8
 			for(var j = 0; j < 7; j++) {
 				$("tbody").append("<td></td>");
 			}
