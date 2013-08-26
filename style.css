@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+#ex1 {
+	
+}
+img {
+	height: 20px;
+	width: 20px;
+}
+
+td {
+	border: 1px solid black;
+	width: 25px;
+	height: 22px;
+	text-align: center;
+}
+
+.roundInput {
+	border-radius: 40%;
+	height: 16px;
+	width: 16px;
+}
+
+.greenCell{
+	background-color: green;
+}
+
+button {
+}
+#ex1 {
+	float: left;
+}
+#tab1 {
+	margin-left: 20px;
+	float: left;
+}
+
+#tab2 {
+	margin-left: 50px;
+	margin-top: 0px;
+	float: left;
+}
+
+input, select, textarea{
+    color: red;
+}
