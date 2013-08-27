@@ -51,3 +51,10 @@ img {
 #input88 {
 	width: 20px;
 }
+.dTd > td{
+	height: auto;
+	width: auto;
+}
+.dWrong{
+	width: 30px;
+}

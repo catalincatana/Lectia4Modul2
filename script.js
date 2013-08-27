@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	//Check si wrong pentru punctul a); am incercat sa le implementez eu validarea, dar nu mi-a iesit
-	$("#diva").append("<img id='check' src='http://www.clipartguide.com/_small/0808-0710-2914-4641.jpg''>");
-	$("#diva").append("<img id='wrong' src='http://www.clker.com/cliparts/u/B/V/9/F/u/red-wrong-cross-md.png'>");
+	$("#diva").append("<img id='check' src='check.jpg'>");
+	$("#diva").append("<img id='wrong' src='wrong.png'>");
 	var noPatrate;
 	if(isNaN(noPatrate)) {
 		$("#noPatrate").keyup(function() {
@@ -30,7 +30,7 @@ $(document).ready(function() {
 		$(".greenCell").hide();
 		$("#btna").click(function() {
 			$("#diva").show("slow");
-			$("#linia1").css("background-color", "#FFFF00;");
+			$(".linia1").css('backgroundColor', '#FFFF00');
 		});
 		$("#btnb").click(function() {
 			$("#divb").show("slow");
@@ -46,7 +46,7 @@ $(document).ready(function() {
 	
 	//functia ce construieste tabelul
 	var createTable = function () {
-		$("#tbody2").append("<tr id='linia1'>");	//Linia 1
+		$("#tbody2").append("<tr class='linia1'>");	//Linia 1
 			$("#tbody2").append("<td> 1 </td>");
 			$("#tbody2").append("<td> 2 </td>");
 			$("#tbody2").append("<td><input id='input13' maxlength='1' size='1'></td>");
