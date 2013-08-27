@@ -626,8 +626,5 @@ $(document).ready(function() {
 			$("#dWrong1").show("slow");
 			$("#dWrong2").show("slow");
 		});
-
-		
-
 	}
 });
