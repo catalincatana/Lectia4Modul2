@@ -623,6 +623,14 @@ $(document).ready(function() {
 		});
 		$("#dcheck1").click(function() {
 			$("#dCheck").show("slow");
+			$("#dWrong1").show("slow");
+			$("#dWrong2").show("slow");
 		});
+<<<<<<< HEAD
+=======
+
+		
+
+>>>>>>> 1588a2a12f9cc5951580ab7a1bd4776b6f1ec90d
 	}
 });
