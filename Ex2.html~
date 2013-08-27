@@ -83,6 +83,7 @@
 		<div id="35" style="position: relative;"></div>
 		<div id="36" style="position: relative;"></div>
 
+<<<<<<< HEAD
 		<div id="box2">
 			2<sup>2</sup> - 1
 		</div>
@@ -100,6 +101,7 @@
 			1 + 2 + 2<sup>2</sup> + 2<sup>3</sup> = <span>2<sup>4</sup> - 1</span>
 		</div>
 	</div>
+=======
 	</br></br>
 	
 	</br></br></br></br></br></br>
@@ -137,5 +139,6 @@
 			2<sup><input id='lastInput' maxlength="2" size="1" value = ""></sup> - 1
 		</div>
 </div>
+>>>>>>> 1b1155a12bcb5566f1934e5dbbb6fe578b979250
 </body>
 </html>
