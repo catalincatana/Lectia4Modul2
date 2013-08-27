@@ -11,21 +11,12 @@ div {
  display: inline-block;
 }
 #box1 {
-<<<<<<< HEAD
-	margin-left: 25px;
-	margin-top: 5px;
-	border: 1px solid black;
-	width: 40px;
-	background-color: red;
-	
-=======
  margin-left: 25px;
  margin-top: 5px;
  border: 1px solid black;
  width: 40px;
  background-color: red;
  
->>>>>>> 1b1155a12bcb5566f1934e5dbbb6fe578b979250
 }
 #sefu1, #sefu2{
  display: inline-block;
@@ -35,7 +26,6 @@ div {
  margin-top: -4px;
  margin-left: 40px;
 }
-<<<<<<< HEAD
 #sefu3 {
 	margin-top: -4px;
 	margin-left: 40px;
@@ -86,7 +76,6 @@ input, select, textarea{
 span {
 	color: red;
 }
-=======
 #sefu4 {
  margin-top: -4px;
 }
@@ -149,4 +138,3 @@ width: 14px
  border: 1px solid black;
  color:red;
  }
->>>>>>> 1b1155a12bcb5566f1934e5dbbb6fe578b979250
