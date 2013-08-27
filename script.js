@@ -8,13 +8,17 @@ $(document).ready(function() {
 			noPatrate = $("#noPatrate").val();
 			noPatrate = parseInt(noPatrate, 10);
 			console.log(noPatrate);
-		}).keyup();	
-	$("img").hide();
-	}
 	if(noPatrate == 64) {
 		$("#check").show();
+		console.log('Este corect');
 	} else if(!isNaN(noPatrate)) {
+		$("#check").hide();
 		$("#wrong").show("slow");
+		$("#wrong").hide("slow");
+		console.log('Gresit');
+	}
+		}).keydown();	
+	$("img").hide();
 	}
 	
 	//functia ce construieste tabelul
@@ -27,7 +31,13 @@ $(document).ready(function() {
 			$("tbody").append("<td><input id='input15' maxlength='2' size='1'></td>");
 			$("tbody").append("<td><input id='input16' maxlength='2' size='1'></td>");
 			$("tbody").append("<td><input id='input17' maxlength='2' size='1'></td>");
-			$("tbody").append("<td><input id='input18' maxlength='2' size='1'></td>");
+			$("tbody").append("<td><input id='input18' maxlength='3' size='1'></td>");
+		$('#input13').autotab({ target: 'input14', format: 'numeric' });
+		$('#input14').autotab({ target: 'input15', format: 'numeric',previous:'input13' });
+		$('#input15').autotab({ target: 'input16', format: 'numeric',previous:'input14' });
+		$('#input16').autotab({ target: 'input17', format: 'numeric',previous:'input15' });
+		$('#input17').autotab({ target: 'input18', format: 'numeric',previous:'input16' });
+		$('#input18').autotab({ previous:'input17', format: 'numeric' });
 		$("tbody").append("</tr>");
 		$("tbody").append("<tr>");	//Linia 2
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input21' maxlength='1' size='1'></sup></td>");
@@ -38,6 +48,15 @@ $(document).ready(function() {
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input26' maxlength='2' size='1'></sup></td>");
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input27' maxlength='2' size='1'></sup></td>");
 			$("tbody").append("<td>2<sup><input class='roundInput' id='input28' maxlength='2' size='1'></sup></td>");
+		$('#input21').autotab({ target: 'input22', format: 'numeric' });
+		$('#input22').autotab({ target: 'input23', format: 'numeric',previous:'input21' });
+		$('#input23').autotab({ target: 'input24', format: 'numeric',previous:'input22' });
+		$('#input24').autotab({ target: 'input25', format: 'numeric',previous:'input23' });
+		$('#input25').autotab({ target: 'input26', format: 'numeric',previous:'input24' });
+		$('#input26').autotab({ target: 'input27', format: 'numeric',previous:'input25' });
+		$('#input27').autotab({ target: 'input28', format: 'numeric',previous:'input26' });
+		$('#input28').autotab({ previous:'input27', format: 'numeric' });
+		
 		$("tbody").append("</tr>");
 		$("tbody").append("<tr>");	//Linia 3
 			$("tbody").append("<td></td>");
@@ -66,6 +85,7 @@ $(document).ready(function() {
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td></td>");
 			$("tbody").append("<td class='greenCell'>2<sup><input class='roundInput' id='input67' maxlength='2' size='1'></sup></td>");
+			
 			$("tbody").append("<td></td>");
 		$("tbody").append("</tr>");
 
@@ -86,6 +106,12 @@ $(document).ready(function() {
 			}
 			$("tbody").append("<td class='greenCell'>2<sup><input class='roundInput' id='input88' maxlength='2' size='1'></sup></td>");
 		$("tbody").append("</tr>");
+		
+		$('#input33').autotab({ target: 'input63', format: 'numeric' });
+		$('#input63').autotab({ target: 'input67', format: 'numeric',previous:'input33' });
+		$('#input67').autotab({ target: 'input75', format: 'numeric',previous:'input63' });
+		$('#input75').autotab({ target: 'input88', format: 'numeric',previous:'input67' });
+		$('#input88').autotab({ previous:'input75', format: 'numeric' });
 	};
 	
 	createTable();
