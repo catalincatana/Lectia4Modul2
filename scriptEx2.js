@@ -144,5 +144,51 @@ $(document).ready(function() {
 	jg36.drawLine(157, 103, 157, -45); // co-ordinates related to "myCanvas"
 	jg36.paint();
 	//$("#sefu3").hide();
+	//Validari
+	var i1;
+	if(isNaN(i1)){
+	$(".boxClass1").keyup(function() {
+	i1 = $(".boxClass1").val();
+	i1 = parseInt(i1,10);
 	
+	if(!(isNaN(i1)))
+	{
+	if (i1 == 3)
+		{
+		$("#span1").show("slow");
+		$("#sefu3").show("slow");
+		}
+	else
+		{
+		$("#span1").hide
+		$("#sefu3").hide();
+		}
+	}
+	}).keydown();
+	}
+	
+	var i2;
+	if(isNaN(i2)){
+	$(".boxClass2").keyup(function() {
+	i2 = $(".boxClass2").val();
+	i2 = parseInt(i2,10);
+	
+	if(!(isNaN(i2)))
+	{
+	if (i2 == 4)
+		{
+		$("#span2").show("slow");
+		$("#sefu4").show("slow");
+		}
+	else{
+		$("#span2").hide();
+		$("#sefu4").hide();
+		}
+	}
+	}).keydown();
+	}
+	$("#span2").hide();
+	$("#span1").hide();
+	$("#sefu4").hide();
+	$("#sefu3").hide();
 });
