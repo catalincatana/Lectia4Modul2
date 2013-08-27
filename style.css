@@ -41,9 +41,10 @@ input, select, textarea{
 	height: auto;
 	width: 300px;
 }
-.td1 {
-	border: 1px solid white;
+.same1 {
+	border: 0px solid white;
 }
+
 img {
 	height: 20px;
 	width: 20px;
