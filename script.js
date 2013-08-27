@@ -284,5 +284,14 @@ $(document).ready(function() {
 		}).keydown();
 		
 		$("img").hide();
+		$("#dwrong1").click(function() {
+			$("#dWrong1").show("slow");
+		});
+		$("#dwrong2").click(function() {
+			$("#dWrong2").show("slow");
+		});
+		$("#dcheck1").click(function() {
+			$("#dCheck").show("slow");
+		});
 	}
 });
