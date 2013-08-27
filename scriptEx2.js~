@@ -23,6 +23,7 @@ $(document).ready(function() {
 	var jg23 = new jsGraphics(c23);
 	jg23.drawLine(70, 10, 110, 48); // co-ordinates related to "myCanvas"
 	jg23.paint();
+<<<<<<< HEAD
 	
 	var c24 = document.getElementById("24");
 	var jg24 = new jsGraphics(c24);
@@ -48,6 +49,9 @@ $(document).ready(function() {
 	var jg34 = new jsGraphics(c34);
 	jg34.drawLine(105, -50, 105, 48); // co-ordinates related to "myCanvas"
 	jg34.paint();
+=======
+
+	
 	
 	var cnv41 = document.getElementById("sefu4");
 	var jg41 = new jsGraphics(cnv41);
@@ -133,6 +137,7 @@ $(document).ready(function() {
 	var jg54 = new jsGraphics(cnv54);
 	jg54.drawLine(455, 30, 455, 324);
 	jg54.paint();
+>>>>>>> 1b1155a12bcb5566f1934e5dbbb6fe578b979250
 
 	var c35 = document.getElementById("35");
 	var jg35 = new jsGraphics(c35);
@@ -144,5 +149,15 @@ $(document).ready(function() {
 	jg36.drawLine(142, 100, 142, -45); // co-ordinates related to "myCanvas"
 	jg36.paint();
 	//$("#sefu3").hide();
-	
+	var valInput, valInput2;
+	if(isNaN(valInput2)) {
+		$(".boxClass").keyup(function() {
+		valInput2 = $(".boxClass1").val();
+		valInput = parseInt(valInput2, 10);
+		if(valInput == 3) {
+			$("#sefu3").show("slow");
+		}
+		console.log(valInput);
+		}).keydown();
+	}
 });
