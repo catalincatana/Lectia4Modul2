@@ -1,5 +1,4 @@
 $(document).ready(function() {
-<<<<<<< HEAD
 	var c11 = document.getElementById("11");
 	var jg11 = new jsGraphics(c11);
 	jg11.drawLine(5, -20, 33, 20); // co-ordinates related to "myCanvas"
@@ -25,7 +24,6 @@ $(document).ready(function() {
 	jg23.drawLine(47, 0, 57, 48); // co-ordinates related to "myCanvas"
 	jg23.paint();
 
-=======
 	var cnv = document.getElementById("myCanvas");
 	var jg = new jsGraphics(cnv);
 	jg.drawLine(5, -20, 30, 20); // co-ordinates related to "myCanvas"
@@ -41,5 +39,5 @@ $(document).ready(function() {
 	jg42.drawLine(30, 30, 30, 70);
 	jg42.paint();
 	
->>>>>>> 7e5b05a8903ec701101be3bd59416019114cc364
+
 });
