@@ -26,9 +26,16 @@ div {
 	margin-top: -4px;
 	margin-left: 40px;
 }
+<<<<<<< HEAD
 #box2 {
 	margin-left: -5px;
 	margin-top: 24px;
 	border: 1px solid black;
 	width: 40px;
 }
+=======
+#blueBox4{
+	height: 12px;
+	width: 14px;
+}
+>>>>>>> 7e5b05a8903ec701101be3bd59416019114cc364
