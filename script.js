@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	//Check si wrong pentru punctul a); am incercat sa le implementez eu validarea, dar nu mi-a iesit
-	$("#patrate").append("<img id='check' src='http://www.clipartguide.com/_small/0808-0710-2914-4641.jpg''>");
-	$("#patrate").append("<img id='wrong' src='http://www.clker.com/cliparts/u/B/V/9/F/u/red-wrong-cross-md.png'>");
+	$("#diva").append("<img id='check' src='http://www.clipartguide.com/_small/0808-0710-2914-4641.jpg''>");
+	$("#diva").append("<img id='wrong' src='http://www.clker.com/cliparts/u/B/V/9/F/u/red-wrong-cross-md.png'>");
 	var noPatrate;
 	if(isNaN(noPatrate)) {
 		$("#noPatrate").keyup(function() {
@@ -18,7 +18,7 @@ $(document).ready(function() {
 				console.log('Gresit');
 			}
 		}).keydown();	
-		$("img").hide();
+		//$("img").hide();
 	}
 	
 	$("#diva").hide();
@@ -138,5 +138,43 @@ $(document).ready(function() {
 	};
 	
 	createTable();
+<<<<<<< HEAD
 	clickOnButton();
+=======
+	var i13,i14,i15,i16,i17,i18;
+	if(isNaN(i13)||isNaN(i14)||isNaN(i15)||isNaN(i16)||isNaN(i17)||isNaN(i18)) {
+		
+		$("#input13").keyup(function() {
+			i13 = $("#input13").val();
+			i13 = parseInt(i13, 10);
+			console.log(i13);
+			if(i13 == 4 && i14 == 8) {
+				$("#check1 > img").show();
+				console.log('Este corect');
+			} else if(!(isNaN(i13)||isNaN(i13))) {
+				$("#check1 > img").hide();
+				$("#wrong1 > img" ).show("slow");
+				$("#wrong1 > img").hide("slow");
+				console.log('Gresit');
+			}
+		}).keydown();
+		$("#input14").keyup(function() {
+			i14 = $("#input14").val();
+			i14 = parseInt(i14, 10);
+			console.log(i14);
+			if(i13 == 4 && i14 == 8) {
+				$("#check1 > img").show();
+				console.log('Este corect');
+			} else if(!(isNaN(i13)||isNaN(i13))) {
+				$("#check1 > img").hide();
+				$("#wrong1 > img" ).show("slow");
+				$("#wrong1 > img").hide("slow");
+				console.log('Gresit');
+			}
+		}).keydown();
+			
+		$("img").hide();
+	}
+	
+>>>>>>> 97092e27626b1db956e3a3bce729bb9b0668c2cb
 });
