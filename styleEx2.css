@@ -11,7 +11,7 @@ div {
 	display: inline-block;
 }
 #box1 {
-	margin-left: 5px;
+	margin-left: -5px;
 	margin-top: 5px;
 	border: 1px solid black;
 	width: 40px;
@@ -24,10 +24,10 @@ div {
 }
 #sefu2 {
 	margin-top: -4px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 #box2 {
-	margin-left: 5px;
+	margin-left: -5px;
 	margin-top: 24px;
 	border: 1px solid black;
 	width: 40px;

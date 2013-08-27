@@ -18,5 +18,10 @@ $(document).ready(function() {
 	var jg22 = new jsGraphics(c22);
 	jg22.drawLine(27, -50, 27, -8); // co-ordinates related to "myCanvas"
 	jg22.paint();
+	
+	var c23 = document.getElementById("23");
+	var jg23 = new jsGraphics(c23);
+	jg23.drawLine(47, 0, 57, 48); // co-ordinates related to "myCanvas"
+	jg23.paint();
 
 });
