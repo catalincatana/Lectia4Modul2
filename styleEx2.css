@@ -80,6 +80,11 @@ span {
 }
 #sefu4 {
  margin-top: -4px;
+ float:left
+}
+#text1{
+display:inline-block; 
+float:left;
 }
 #blueBox4,#lastInput
 {
