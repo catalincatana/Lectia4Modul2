@@ -11,7 +11,10 @@
 div {
 	display: inline-block;
 }
-
+#imag{
+width:10px;
+height:10px;
+}
 #box1 {
 	margin-left: 25px;
 	margin-top: 3px;
