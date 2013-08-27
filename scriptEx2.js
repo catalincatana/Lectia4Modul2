@@ -180,6 +180,7 @@ $(document).ready(function() {
 				{
 					$("#span2").show("slow");
 					$("#sefu4").show("slow");
+					$("#text1").show("slow");
 				}
 				else{
 					$("#span2").hide();
@@ -192,7 +193,7 @@ $(document).ready(function() {
 	$("#span1").hide();
 	$("#sefu4").hide();
 	$("#sefu3").hide();
-	//$("#text1").hide();
+	$("#text1").hide();
 	//autotab
 	$('#boxC1').autotab({ target: 'boxC2', format: 'numeric' });
 	$('#boxC2').autotab({ target: 'blueBox4', format: 'numeric',previous:'boxC1' });
