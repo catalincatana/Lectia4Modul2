@@ -27,23 +27,26 @@ $(document).ready(function() {
 	$("#divd").hide();
 	//Funcie ce afiseaza div-urile corespunzatoare butoanelor a, b, c, d
 	var clickOnButton = function() {
+		$(".greenCell").hide();
 		$("#btna").click(function() {
-			$("#diva").show("fast");
+			$("#diva").show("slow");
+			$("#linia1").css("background-color", "#FFFF00;");
 		});
 		$("#btnb").click(function() {
-			$("#divb").show("fast");
+			$("#divb").show("slow");
 		});
 		$("#btnc").click(function() {
-			$("#divc").show("fast");
+			$("#divc").show("slow");
+			$(".greenCell").show("slow");
 		});
 		$("#btnd").click(function() {
-			$("#divd").show("fast");
+			$("#divd").show("slow");
 		});
 	};
-	clickOnButton();
+	
 	//functia ce construieste tabelul
 	var createTable = function () {
-		$("#tbody2").append("<tr>");	//Linia 1
+		$("#tbody2").append("<tr id='linia1'>");	//Linia 1
 			$("#tbody2").append("<td> 1 </td>");
 			$("#tbody2").append("<td> 2 </td>");
 			$("#tbody2").append("<td><input id='input13' maxlength='1' size='1'></td>");
@@ -60,7 +63,7 @@ $(document).ready(function() {
 			$('#input18').autotab({ previous:'input17', format: 'numeric' });
 		$("#tbody2").append("</tr>");
 	
-		$("#tbody2").append("<tr>");	//Linia 2
+		$("#tbody2").append("<tr id='linia2'>");	//Linia 2
 			$("#tbody2").append("<td>2<sup><input class='roundInput' id='input21' maxlength='1' size='1'></sup></td>");
 			$("#tbody2").append("<td>2<sup><input class='roundInput' id='input22' maxlength='1' size='1'></sup></td>");
 			$("#tbody2").append("<td>2<sup><input class='roundInput' id='input23' maxlength='2' size='1'></sup></td>");
@@ -82,7 +85,7 @@ $(document).ready(function() {
 		$("#tbody2").append("<tr>");	//Linia 3
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
-			$("#tbody2").append("<td class='greenCell'>2<sup><input class='roundInput' id='input33' maxlength='2' size='1'></sup></td>");
+			$("#tbody2").append("<td><div class='greenCell'>2<sup><input class='roundInput' id='input33' maxlength='2' size='1'></sup></div></td>");
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
@@ -101,11 +104,11 @@ $(document).ready(function() {
 		$("#tbody2").append("<tr>");	//Linia 6
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
-			$("#tbody2").append("<td class='greenCell'>2<sup><input class='roundInput' id='input63' maxlength='2' size='1'></sup></td>");
+			$("#tbody2").append("<td><div class='greenCell'>2<sup><input class='roundInput' id='input63' maxlength='2' size='1'></sup></div></td>");
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
-			$("#tbody2").append("<td class='greenCell'>2<sup><input class='roundInput' id='input67' maxlength='2' size='1'></sup></td>");
+			$("#tbody2").append("<td><div class='greenCell'>2<sup><input class='roundInput' id='input67' maxlength='2' size='1'></sup></div></td>");
 			$("#tbody2").append("<td></td>");
 		$("#tbody2").append("</tr>");
 
@@ -114,7 +117,7 @@ $(document).ready(function() {
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
-			$("#tbody2").append("<td class='greenCell'>2<sup><input class='roundInput' id='input75' maxlength='2' size='1'></sup></td>");
+			$("#tbody2").append("<td><div class='greenCell'>2<sup><input class='roundInput' id='input75' maxlength='2' size='1'></sup></div></td>");
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
 			$("#tbody2").append("<td></td>");
@@ -124,7 +127,7 @@ $(document).ready(function() {
 			for(var j = 0; j < 7; j++) {
 				$("#tbody2").append("<td></td>");
 			}
-			$("#tbody2").append("<td class='greenCell'>2<sup><input class='roundInput' id='input88' maxlength='3' size='1'></sup></td>");
+			$("#tbody2").append("<td><div class='greenCell'>2<sup><input class='roundInput' id='input88' maxlength='3' size='1'></sup></div></td>");
 		$("#tbody2").append("</tr>");
 		
 		$('#input33').autotab({ target: 'input63', format: 'numeric' });
@@ -135,6 +138,7 @@ $(document).ready(function() {
 	};
 	
 	createTable();
+	clickOnButton();
 	var i13,i14,i15,i16,i17,i18;
 	if(isNaN(i13)||isNaN(i14)||isNaN(i15)||isNaN(i16)||isNaN(i17)||isNaN(i18)) {
 		
@@ -166,8 +170,7 @@ $(document).ready(function() {
 				console.log('Gresit');
 			}
 		}).keydown();
-			
+		
 		$("img").hide();
 	}
-	
 });
