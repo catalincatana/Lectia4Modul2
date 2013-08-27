@@ -44,7 +44,9 @@ input, select, textarea{
 .same1 {
 	border: 0px solid white;
 }
-
+.td1 {
+	border: 1px solid white;
+}
 img {
 	height: 20px;
 	width: 20px;
@@ -55,6 +57,7 @@ img {
 .dTd > td{
 	height: auto;
 	width: auto;
+	border: 1px solid white;
 }
 .dWrong{
 	width: 30px;
