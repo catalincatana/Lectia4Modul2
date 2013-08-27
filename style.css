@@ -42,8 +42,9 @@ input, select, textarea{
 	width: 300px;
 }
 .same1 {
-	border: 0px solid white;
+	border: 1px solid white;
 }
+
 .td1 {
 	border: 1px solid white;
 }
