@@ -23,6 +23,7 @@ $(document).ready(function() {
 	var jg23 = new jsGraphics(c23);
 	jg23.drawLine(70, 10, 110, 48); // co-ordinates related to "myCanvas"
 	jg23.paint();
+<<<<<<< HEAD
 	
 	var c24 = document.getElementById("24");
 	var jg24 = new jsGraphics(c24);
@@ -48,6 +49,95 @@ $(document).ready(function() {
 	var jg34 = new jsGraphics(c34);
 	jg34.drawLine(105, -50, 105, 48); // co-ordinates related to "myCanvas"
 	jg34.paint();
+=======
+
+	
+	
+	var cnv41 = document.getElementById("sefu4");
+	var jg41 = new jsGraphics(cnv41);
+	jg41.drawLine(5, 30, 65, 70);
+	jg41.paint();
+	
+	var cnv42 = document.getElementById("sefu4");
+	var jg42 = new jsGraphics(cnv42);
+	jg42.drawLine(65, 30, 65, 70);
+	jg42.paint();
+	
+	var cnv43 = document.getElementById("sefu4");
+	var jg43 = new jsGraphics(cnv43);
+	jg42.drawLine(80, 80, 120, 110);
+	jg42.paint();
+	
+	var cnv44 = document.getElementById("sefu4");
+	var jg44 = new jsGraphics(cnv44);
+	jg44.drawLine(120, 30, 120, 110);
+	jg44.paint();
+	
+	var cnv45 = document.getElementById("sefu4");
+	var jg45 = new jsGraphics(cnv45);
+	jg45.drawLine(140, 125, 175, 150);
+	jg45.paint();
+	
+	var cnv46 = document.getElementById("sefu4");
+	var jg46 = new jsGraphics(cnv46);
+	jg46.drawLine(175, 30, 175, 150);
+	jg46.paint();
+	
+	var cnv47 = document.getElementById("sefu4");
+	var jg47 = new jsGraphics(cnv47);
+	jg47.drawLine(196, 160, 235, 190);
+	jg47.paint();
+	
+	var cnv48 = document.getElementById("sefu4");
+	var jg48 = new jsGraphics(cnv48);
+	jg48.drawLine(235, 30, 235, 190);
+	jg48.paint();
+	
+	var cnv49 = document.getElementById("sefu4");
+	var jg49 = new jsGraphics(cnv49);
+	jg49.drawLine(256, 200, 290, 225);
+	jg49.paint();
+	
+	var cnv50 = document.getElementById("sefu4");
+	var jg50 = new jsGraphics(cnv50);
+	jg50.drawLine(290, 30, 290, 225);
+	jg50.paint();
+	
+	var cnv51 = document.getElementById("sefu4");
+	var jg51 = new jsGraphics(cnv51);
+	jg51.drawLine(312, 240, 350, 265);
+	jg51.paint();
+	
+	var cnv52 = document.getElementById("sefu4");
+	var jg52 = new jsGraphics(cnv52);
+	jg52.drawLine(350, 30, 350, 265);
+	jg52.paint();
+	
+	var cnv53 = document.getElementById("sefu4");
+	var jg53 = new jsGraphics(cnv53);
+	jg53.drawLine(372, 278, 400, 295);
+	jg53.paint();
+	
+	var cnv53p = document.getElementById("sefu4");
+	var jg53p = new jsGraphics(cnv53p);
+	jg53p.drawLine(410, 300, 415, 303);
+	jg53p.paint();
+	
+	var cnv53pp = document.getElementById("sefu4");
+	var jg53pp = new jsGraphics(cnv53p);
+	jg53pp.drawLine(420, 307, 425, 309);
+	jg53pp.paint();
+	
+	var cnv54p = document.getElementById("sefu4");
+	var jg54p = new jsGraphics(cnv54p);
+	jg54p.drawLine(430, 311, 455, 324);
+	jg54p.paint();
+	
+	var cnv54 = document.getElementById("sefu4");
+	var jg54 = new jsGraphics(cnv54);
+	jg54.drawLine(455, 30, 455, 324);
+	jg54.paint();
+>>>>>>> 1b1155a12bcb5566f1934e5dbbb6fe578b979250
 
 	var c35 = document.getElementById("35");
 	var jg35 = new jsGraphics(c35);
