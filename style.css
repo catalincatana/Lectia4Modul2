@@ -60,6 +60,12 @@ img {
 	width: auto;
 	border: 1px solid white;
 }
-.dWrong{
-	width: 30px;
+#dwrong2 {
+	margin-left: auto;
+}
+#dwrong1 {
+	margin-left: auto;
+}
+#dcheck1 {
+	margin-left: auto;
 }
