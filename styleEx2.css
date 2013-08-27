@@ -98,7 +98,8 @@ span {
 
 #sefu4 {
  margin-top: -4px;
- float:left
+ float:left;
+ display: inline-block;
 }
 #text1{
 display:inline-block; 
@@ -185,7 +186,7 @@ float:left;
 #checkFinal, #checkFinal2 {
 	border: 1px solid white;
 }
-#imgCheck, #imgCheck2 {
+#imgCheck, #imgCheck2, #imgWrong {
 	height: 20px;
 	width: 20px;
 }
