@@ -64,12 +64,7 @@
 		</div>
 		</br>
 		<div id="box3">
-<<<<<<< HEAD
-			2<sup><input class="boxClass1" type="text" maxlength="1"
-				size="1" value=""></sup> - 1
-=======
 			2<sup><input class="boxClass1" id="boxC1" type="text" maxlength="1" size="1" value=""></sup> - 1
->>>>>>> bd068abd6d8094447a69bf35607949ac96467f54
 		</div>
 		</br>
 
@@ -176,7 +171,9 @@
 		<div id="chenar">
 			1 + 2 + 2<sup>2</sup> + 2<sup>3</sup> + ... + 2<sup>63</sup> = <span id="redSpan">2<sup><input id="inputChenar" maxlength="2"
 			size="1" value=""></sup> - 1</span>
-		</div>
+		</div><div id="checkFinal"><img id="imgCheck" src="check.jpg"</div>
 	</div>
+</div>
+<div id="text1">Numaruld e boabe cerut</br>pentru patratul al </br> 64-lea</div>
 </body>
 </html>
