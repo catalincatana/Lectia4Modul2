@@ -166,7 +166,18 @@ span {
 #chenar {
 	margin-left: 50px;
 	border: 1px solid black;
+	display: inline-block;
+}
+#inputChenar {
+	width: 15px;
 }
 #redSpan {
 	color: red;
+}
+#checkFinal, #checkFinal2 {
+	border: 1px solid white;
+}
+#imgCheck, #imgCheck2 {
+	height: 20px;
+	width: 20px;
 }
