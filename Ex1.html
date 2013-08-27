@@ -3,80 +3,116 @@
 <head>
 <meta charset="UTF-8">
 <title>Povestea sahului | Exercitiu 1</title>
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	<script	type="text/javascript" src="script.js"></script>
-	<link type="text/css" href="styleEx1.css" rel='stylesheet'>
-	<script type="text/javascript" src="jquery.autotab-1.1b.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link type="text/css" href="styleEx1.css" rel='stylesheet'>
+<script type="text/javascript" src="jquery.autotab-1.1b.js"></script>
 </head>
 <body>
-   <button> <a href='Povestea.html'>Povestea Sahului</a></button> 
-   <button><a href='Ex1.html'>1</a></button> 
-   <button><a href='Ex2.html'>2</a></button>
-   </br></br>
-   <div><button id='ex1'> 1)</button>
-   <table id='tab1' border="0">
-   		<tr><td class='td1'><button id='btna'>a.</button> <div id="diva">
-   			Tabla de sah are
-   				<input id="noPatrate" maxlength="2" size="1" value=""> patrate
-   		</div></td></br></tr>
-   		
-  		<tr><td class='td1'><button id='btnb'>b.</button> <div id="divb">
-   			Puneti in fiecare patrat din primul rand
-&nbsp;al tablei de sah numarul de boabe cerut de </br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;brahman.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>(Urmariti schema de mai jos)
-   		</div></td></br></tr>
-   		
-  		<tr><td class='td1'><button id='btnc'>c.</button> <div id="divc">
-   			Puneti in toate patratelele din randul al </br>
-&nbsp;				doilea al tablei de sah numaru de </br>
-&nbsp;&nbsp;&nbsp;&nbsp;	boabe cerut. La fel procedati si pentru celelalte 5 patratele colorate.</br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;	Explicati cum ati procedat !
-   		</div></td></br></tr>
-   		
-  		<tr><td class='td1'><button id='btnd'>d.</button> <div id="divd">
-   			Care din urmatoarele afirmatii vi se pare cea mai apropiata de cea reala ?</br>
-&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;Justificati logic raspunsul !</br>
-			<table>
-				<tr class='dTd'>
-					<td class='dWrong' width = 14%><img id='dWrong1' src='wrong.png'></td>
-					<td><input type="radio" id="dwrong1"></td><td> Numarul total de boabe cerut are 12 cifre (2<sup>10</sup> ~= 10<sup>3</sup>)</td>
-   				</tr>
-   				<tr class='dTd'>
-					<td class='dWrong' width = 14%><img id='dWrong2' src='wrong.png'></td>
-					<td><input type="radio" id="dwrong2"></td><td> Numarul total de boabe incape in 120 saci (1 sac ~= 75kg)</td>
-   				</tr>
-   				<tr class='dTd'>
-					<td class='dWrong' width = 14%><img id='dCheck' src='check.jpg'></td>
-					<td><input type="radio" id="dcheck1"></td><td> Cantitatea de grau cerute este de mii de ori mai mare
-						decat productia anuala a intregului Pamant!</td>
-   				</tr>
-   			</table>
-   		</div></td></tr>
-   	</table>
-   	</div>
-	 
-   <table id='tab2' border="1">
-   	<thead></thead>
-   	<tbody id='tbody2'></tbody>
-   </table>
-   <table border="0" id="tablee" width = 14% height=250 >
-			<tr class = "l1">
-			<td class='same1' id='check1'><img class='checkSize' src='check.jpg'></td>
-			<td class='same1' id='wrong1'><img class='wrongSize' src='wrong.png'>
+	<button>
+		<a href='Povestea.html'>Povestea Sahului</a>
+	</button>
+	<button>
+		<a href='Ex1.html'>1</a>
+	</button>
+	<button>
+		<a href='Ex2.html'>2</a>
+	</button>
+	</br>
+	</br>
+	<div>
+		<button id='ex1'>1)</button>
+		<table id='tab1' border="0">
+			<tr>
+				<td class='td1'><button id='btna'>a.</button>
+					<div id="diva">
+						Tabla de sah are <input id="noPatrate" maxlength="2" size="1"
+							value=""> patrate
+					</div></td>
+				</br>
 			</tr>
-			<tr class = "l2">
-			<td class='same1' id='check2'><img class='checkSize' src='check.jpg'></td>
-			<td class='same1' id='wrong2'><img class='wrongSize' src='wrong.png'></td>
+
+			<tr>
+				<td class='td1'><button id='btnb'>b.</button>
+					<div id="divb">
+						Puneti in fiecare patrat din primul rand &nbsp;al tablei de sah
+						numarul de boabe cerut de </br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;brahman.
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>(Urmariti schema de mai jos)
+					</div></td>
+				</br>
 			</tr>
-			<tr class = "l3" height = 200%>
-			<td class='same1' id='check3' ><img class='checkSize' src='check.jpg'></td>
-			<td class='same1' id='wrong3'><img class='wrongSize' src='wrong.png'>
+
+			<tr>
+				<td class='td1'><button id='btnc'>c.</button>
+					<div id="divc">
+						Puneti in toate patratelele din randul al </br> &nbsp; doilea al tablei
+						de sah numaru de </br> &nbsp;&nbsp;&nbsp;&nbsp; boabe cerut. La fel
+						procedati si pentru celelalte 5 patratele colorate.</br>
+						&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp; Explicati cum ati procedat !
+					</div></td>
+				</br>
 			</tr>
+
+			<tr>
+				<td class='td1'><button id='btnd'>d.</button>
+					<div id="divd">
+						Care din urmatoarele afirmatii vi se pare cea mai apropiata de cea
+						reala ?</br> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;Justificati logic raspunsul !</br>
+						<table>
+							<tr class='dTd'>
+								<td class='dWrong' width=14%><img id='dWrong1'
+									src='wrong.png'></td>
+								<td><input type="radio" id="dwrong1"></td>
+								<td>Numarul total de boabe cerut are 12 cifre (2<sup>10</sup>
+									~= 10<sup>3</sup>)
+								</td>
+							</tr>
+							<tr class='dTd'>
+								<td class='dWrong' width=14%><img id='dWrong2'
+									src='wrong.png'></td>
+								<td><input type="radio" id="dwrong2"></td>
+								<td>Numarul total de boabe incape in 120 saci (1 sac ~=
+									75kg)</td>
+							</tr>
+							<tr class='dTd'>
+								<td class='dWrong' width=14%><img id='dCheck'
+									src='check.jpg'></td>
+								<td><input type="radio" id="dcheck1"></td>
+								<td>Cantitatea de grau cerute este de mii de ori mai mare
+									decat productia anuala a intregului Pamant!</td>
+							</tr>
+						</table>
+					</div></td>
+			</tr>
+		</table>
+	</div>
+
+	<table id='tab2' border="1">
+		<thead></thead>
+		<tbody id='tbody2'></tbody>
+	</table>
+	<table border="0" id="tablee" width=14% height=250>
+		<tr class="l1">
+			<td class='same1' id='check1'><img class='checkSize'
+				src='check.jpg'></td>
+			<td class='same1' id='wrong1'><img class='wrongSize'
+				src='wrong.png'>
+		</tr>
+		<tr class="l2">
+			<td class='same1' id='check2'><img class='checkSize'
+				src='check.jpg'></td>
+			<td class='same1' id='wrong2'><img class='wrongSize'
+				src='wrong.png'></td>
+		</tr>
+		<tr class="l3" height=200%>
+			<td class='same1' id='check3'><img class='checkSize'
+				src='check.jpg'></td>
+			<td class='same1' id='wrong3'><img class='wrongSize'
+				src='wrong.png'>
+		</tr>
 	</table>
 </body>
 </html>
