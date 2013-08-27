@@ -21,7 +21,7 @@ $(document).ready(function() {
 	
 	var c23 = document.getElementById("23");
 	var jg23 = new jsGraphics(c23);
-	jg23.drawLine(70, 10, 110, 48); // co-ordinates related to "myCanvas"
+	jg23.drawLine(65, 10, 110, 48); // co-ordinates related to "myCanvas"
 	jg23.paint();
 	
 	var c24 = document.getElementById("24");
@@ -41,7 +41,7 @@ $(document).ready(function() {
 	
 	var c33 = document.getElementById("33");
 	var jg33 = new jsGraphics(c33);
-	jg33.drawLine(80, 10, 110, 48); // co-ordinates related to "myCanvas"
+	jg33.drawLine(73, 10, 110, 48); // co-ordinates related to "myCanvas"
 	jg33.paint();
 	
 	var c34 = document.getElementById("34");
@@ -136,12 +136,12 @@ $(document).ready(function() {
 
 	var c35 = document.getElementById("35");
 	var jg35 = new jsGraphics(c35);
-	jg35.drawLine(145, 100, 115, 58); // co-ordinates related to "myCanvas"
+	jg35.drawLine(160, 103, 120, 58); // co-ordinates related to "myCanvas"
 	jg35.paint();
 	
 	var c36 = document.getElementById("36");
 	var jg36 = new jsGraphics(c36);
-	jg36.drawLine(142, 100, 142, -45); // co-ordinates related to "myCanvas"
+	jg36.drawLine(157, 103, 157, -45); // co-ordinates related to "myCanvas"
 	jg36.paint();
 	//$("#sefu3").hide();
 	
