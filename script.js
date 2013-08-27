@@ -138,9 +138,7 @@ $(document).ready(function() {
 	};
 	
 	createTable();
-<<<<<<< HEAD
 	clickOnButton();
-=======
 	var i13,i14,i15,i16,i17,i18;
 	if(isNaN(i13)||isNaN(i14)||isNaN(i15)||isNaN(i16)||isNaN(i17)||isNaN(i18)) {
 		
@@ -172,9 +170,7 @@ $(document).ready(function() {
 				console.log('Gresit');
 			}
 		}).keydown();
-			
+		
 		$("img").hide();
 	}
-	
->>>>>>> 97092e27626b1db956e3a3bce729bb9b0668c2cb
 });
