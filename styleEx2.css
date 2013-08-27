@@ -94,7 +94,16 @@ span {
 }
 
 #sefu4 {
+<<<<<<< HEAD
 	margin-top: -4px;
+=======
+ margin-top: -4px;
+ float:left
+}
+#text1{
+display:inline-block; 
+float:left;
+>>>>>>> ff03f912755b32f0c4f6a482767f451dda3344ad
 }
 
 #blueBox4,#lastInput {
