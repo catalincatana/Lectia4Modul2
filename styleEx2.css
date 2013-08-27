@@ -23,7 +23,6 @@ div {
 #parent {
 	-moz-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
-	margin-top: 10px;
 	margin-right: -10px;
 }
 #parent2 {
