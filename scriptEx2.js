@@ -200,6 +200,7 @@ $(document).ready(function() {
 	$('#lastInput').autotab({ previous:'bluebox', format: 'numeric' });
 	var checkFinal;
 	$("#imgCheck").hide();
+	$("#imgWrong").hide();
 	if(isNaN(checkFinal)) {
 		$("#inputChenar").keyup(function() {
 			checkFinal = $(this).val();
@@ -208,6 +209,12 @@ $(document).ready(function() {
 			if(!(isNaN(checkFinal))) {
 				if(checkFinal == 64) {
 					$("#imgCheck").show("slow");
+				} else if(checkFinal == 6){
+					
+				} else {
+					$("#imgWrong").show("slow");
+					$("#imgWrong").hide("slow");
+					$("#imgCheck").hide("slow");
 				}
 			}
 		}).keydown();
