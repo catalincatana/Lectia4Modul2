@@ -204,7 +204,7 @@ $.fn.autotab = function(options) {
 		defaults.maxlength = maxlength;
 	// defaults.maxlength overrides maxlength
 	else if(defaults.maxlength > 0)
-		$(this).attr('maxlength', defaults.maxlength)
+		$(this).attr('maxlength', defaults.maxlength);
 	// defaults.maxlength and maxlength have not been specified
 	// A target cannot be used since there is no defined maxlength
 	else
