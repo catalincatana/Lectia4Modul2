@@ -206,12 +206,12 @@ $(document).ready(function() {
 		$("#inputChenar").keyup(function() {
 			checkFinal = $(this).val();
 			checkFinal = parseInt(checkFinal, 10);
-			
+
 			if(!(isNaN(checkFinal))) {
 				if(checkFinal == 64) {
 					$("#imgCheck").show("slow");
 				} else if(checkFinal == 6){
-					
+
 				} else {
 					$("#imgWrong").show("slow");
 					$("#imgWrong").hide("slow");

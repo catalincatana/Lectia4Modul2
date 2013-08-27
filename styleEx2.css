@@ -11,10 +11,12 @@
 div {
 	display: inline-block;
 }
-#imag{
-width:10px;
-height:10px;
+
+#imag {
+	width: 10px;
+	height: 10px;
 }
+
 #box1 {
 	margin-left: 25px;
 	margin-top: 3px;
@@ -97,13 +99,14 @@ span {
 }
 
 #sefu4 {
- margin-top: -4px;
- float:left;
- display: inline-block;
+	margin-top: -4px;
+	float: left;
+	display: inline-block;
 }
-#text1{
-display:inline-block; 
-float:left;
+
+#text1 {
+	display: inline-block;
+	float: left;
 }
 
 #blueBox4,#lastInput {
@@ -172,21 +175,26 @@ float:left;
 	border: 1px solid black;
 	background-color: red;
 }
+
 #chenar {
 	margin-left: 50px;
 	border: 1px solid black;
 	display: inline-block;
 }
+
 #inputChenar {
 	width: 15px;
 }
+
 #redSpan {
 	color: red;
 }
-#checkFinal, #checkFinal2 {
+
+#checkFinal,#checkFinal2 {
 	border: 1px solid white;
 }
-#imgCheck, #imgCheck2, #imgWrong {
+
+#imgCheck,#imgCheck2,#imgWrong {
 	height: 20px;
 	width: 20px;
 }
