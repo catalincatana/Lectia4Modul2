@@ -615,7 +615,6 @@ $(document).ready(function() {
 		
 	}
 		$("img").hide();
-<<<<<<< HEAD
 		$("#dwrong1").click(function() {
 			$("#dWrong1").show("slow");
 		});
@@ -624,9 +623,11 @@ $(document).ready(function() {
 		});
 		$("#dcheck1").click(function() {
 			$("#dCheck").show("slow");
+			$("#dWrong1").show("slow");
+			$("#dWrong2").show("slow");
 		});
-=======
-		$("#dWrong1").show();
->>>>>>> ff7afef08372bd3fbc1004e5c740954abbe28830
+
+		
+
 	}
 });
