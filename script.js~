@@ -8,17 +8,17 @@ $(document).ready(function() {
 			noPatrate = $("#noPatrate").val();
 			noPatrate = parseInt(noPatrate, 10);
 			console.log(noPatrate);
-			if(noPatrate == 64) {
-				$("#check").show();
-				console.log('Este corect');
-			} else if(!isNaN(noPatrate)) {
-				$("#check").hide();
-				$("#wrong").show("slow");
-				$("#wrong").hide("slow");
-				console.log('Gresit');
-			}
+	if(noPatrate == 64) {
+		$("#check").show();
+		console.log('Este corect');
+	} else if(!isNaN(noPatrate)) {
+		$("#check").hide();
+		$("#wrong").show("slow");
+		$("#wrong").hide("slow");
+		console.log('Gresit');
+	}
 		}).keydown();	
-		$("img").hide();
+	$("img").hide();
 	}
 	
 	$("#diva").hide();
