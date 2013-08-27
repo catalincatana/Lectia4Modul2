@@ -144,6 +144,7 @@ $(document).ready(function() {
 	jg36.drawLine(157, 103, 157, -45); // co-ordinates related to "myCanvas"
 	jg36.paint();
 	//$("#sefu3").hide();
+	
 	//Validari
 	var i1;
 	if(isNaN(i1)){
@@ -191,4 +192,10 @@ $(document).ready(function() {
 	$("#span1").hide();
 	$("#sefu4").hide();
 	$("#sefu3").hide();
+	//autotab
+	$('#boxC1').autotab({ target: 'boxC2', format: 'numeric' });
+	$('#boxC2').autotab({ target: 'blueBox4', format: 'numeric',previous:'boxC1' });
+	$('#blueBox4').autotab({ target: 'lastInput', format: 'numeric',previous:'boxC2' });
+	$('#lastInput').autotab({ previous:'bluebox', format: 'numeric' });
+	
 });
